@@ -8,7 +8,7 @@ var month = prompt("Month? (YTD-6 => 6)", auto_month);
 document.getElementsByTagName('select')[0].value = 'Year'
 document.getElementsByTagName('select')[1].value = '1'			//Month-Start
 document.getElementsByTagName('select')[2].value = month		//Month-End
-document.getElementsByTagName('select')[3].value = 'EUR'		//Basisw‰hrung
+document.getElementsByTagName('select')[3].value = 'EUR'		//Basisw√§hrung
 document.getElementsByTagName('select')[4].getElementsByTagName('option')[2].selected = 1
 
 document.getElementsByTagName('input')[3].value = year
@@ -49,7 +49,7 @@ ReqCurrencies[18] = 'MXN';
 ReqCurrencies[19] = 'MYR';
 ReqCurrencies[20] = 'NOK';
 ReqCurrencies[21] = 'NZD';
-ReqCurrencies[22] = 'PAB';
+ReqCurrencies[22] = 'PASB';
 ReqCurrencies[23] = 'PEN';
 ReqCurrencies[25] = 'PHP';
 ReqCurrencies[26] = 'PLN';
