@@ -27,7 +27,7 @@
 	ReqCurrencies[19] = 'MYR';
 	ReqCurrencies[20] = 'NOK';
 	ReqCurrencies[21] = 'NZD';
-	ReqCurrencies[22] = 'PASB';
+	ReqCurrencies[22] = 'PAB';
 	ReqCurrencies[23] = 'PEN';
 	ReqCurrencies[25] = 'PHP';
 	ReqCurrencies[26] = 'PLN';
