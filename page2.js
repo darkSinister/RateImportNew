@@ -17,21 +17,22 @@
 	ReqCurrencies[6] = 'CNY';
 	ReqCurrencies[7] = 'COP';
 	ReqCurrencies[8] = 'CZK';
-	ReqCurrencies[9] = 'DKK';
-	ReqCurrencies[10] = 'EUR';
-	ReqCurrencies[11] = 'GBP';
-	ReqCurrencies[12] = 'HKD';
-	ReqCurrencies[13] = 'HUF';
-	ReqCurrencies[14] = 'IDR';
-	ReqCurrencies[15] = 'INR';
-	ReqCurrencies[16] = 'ISK';
-	ReqCurrencies[17] = 'JPY';
-	ReqCurrencies[18] = 'MXN';
-	ReqCurrencies[19] = 'MYR';
-	ReqCurrencies[20] = 'NOK';
-	ReqCurrencies[21] = 'NZD';
-	ReqCurrencies[22] = 'PAB';
-	ReqCurrencies[23] = 'PEN';
+	ReqCurrencies[9] = 'DKK'; 
+	ReqCurrencies[10] = 'EGP';
+	ReqCurrencies[11] = 'EUR';
+	ReqCurrencies[12] = 'GBP';
+	ReqCurrencies[13] = 'HKD';
+	ReqCurrencies[14] = 'HUF';
+	ReqCurrencies[15] = 'IDR';
+	ReqCurrencies[16] = 'INR';
+	ReqCurrencies[17] = 'ISK';
+	ReqCurrencies[18] = 'JPY';
+	ReqCurrencies[19] = 'MXN';
+	ReqCurrencies[20] = 'MYR';
+	ReqCurrencies[21] = 'NOK';
+	ReqCurrencies[22] = 'NZD';
+	ReqCurrencies[23] = 'PAB';
+	ReqCurrencies[24] = 'PEN';
 	ReqCurrencies[25] = 'PHP';
 	ReqCurrencies[26] = 'PLN';
 	ReqCurrencies[27] = 'RON';
@@ -41,16 +42,14 @@
 	ReqCurrencies[31] = 'SGD';
 	ReqCurrencies[32] = 'THB';
 	ReqCurrencies[33] = 'TRY';
-	ReqCurrencies[34] = 'USD';
-	ReqCurrencies[35] = 'UYU';
-	ReqCurrencies[36] = 'VEF';
-	ReqCurrencies[37] = 'XAF';
-	ReqCurrencies[38] = 'ZAR';
-	ReqCurrencies[39] = 'EGP';
-	ReqCurrencies[40] = 'TWD';
+	ReqCurrencies[34] = 'TWD';
+	ReqCurrencies[35] = 'USD';
+	ReqCurrencies[36] = 'UYU';
+	ReqCurrencies[37] = 'VEF';
+	ReqCurrencies[38] = 'XAF';
+	ReqCurrencies[39] = 'ZAR';
 
-	var reqCurL = ReqCurrencies.length-2;
-	alert(reqCurL);
+	var reqCurL = ReqCurrencies.length;
 
 	for (i=1;i<reqCurL;i++){
 
