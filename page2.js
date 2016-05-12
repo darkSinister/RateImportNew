@@ -1,8 +1,11 @@
-	document.getElementsByTagName("header")[0].style.display = "none";
+	document.getElementById("logo").style.display = "none";
+	document.getElementById("top-right").style.display = "none";
+	document.getElementById("language_dropdown").style.display = "none";
 	document.getElementsByTagName("footer")[0].style.display = "none";
 	document.getElementById("page").style.display = "none";
 	document.getElementById("fixed-risk-warning").style.display = "none";
-
+	document.getElementById("bot").style.display = "none";
+	
 	var output = [];
 	var ReqCurrencies = [];
 
@@ -46,7 +49,8 @@
 	ReqCurrencies[39] = 'EGP';
 	ReqCurrencies[40] = 'TWD';
 
-	var reqCurL = ReqCurrencies.length-1;
+	var reqCurL = ReqCurrencies.length-2;
+	alert(reqCurL);
 
 	for (i=1;i<reqCurL;i++){
 
