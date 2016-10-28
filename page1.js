@@ -67,6 +67,7 @@ ReqCurrencies[37] = 'XAF';
 ReqCurrencies[38] = 'ZAR';
 ReqCurrencies[39] = 'EGP';
 ReqCurrencies[40] = 'TWD';
+ReqCurrencies[41] = 'VND';
 				
 		
 var yy = [];
