@@ -1,5 +1,5 @@
 var d = new Date();
-var auto_year = d.getYear();
+var auto_year = d.getFullYear();
 var auto_month = d.getMonth();
 
 var year = prompt("Year?", auto_year);
