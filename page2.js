@@ -1,10 +1,10 @@
 	document.getElementById("logo").style.display = "none";
-	document.getElementById("top-right").style.display = "none";
-	document.getElementById("language_dropdown").style.display = "none";
+	//document.getElementById("top-right").style.display = "none";
+	//document.getElementById("language_dropdown").style.display = "none";
 	document.getElementsByTagName("footer")[0].style.display = "none";
 	document.getElementById("page").style.display = "none";
 	document.getElementById("fixed-risk-warning").style.display = "none";
-	document.getElementById("bot").style.display = "none";
+	//document.getElementById("bot").style.display = "none";
 	
 	var output = [];
 	var ReqCurrencies = [];
@@ -67,7 +67,7 @@
 	var newTR2;
 	var newTD2;
 	
-	document.getElementById('top').appendChild(newDIV);
+	document.getElementsByTagName('body')[0].appendChild(newDIV);
 	newDIV.appendChild(newTAB);
 
 	for (i=1;i<reqCurL;i++) {
