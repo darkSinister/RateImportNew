@@ -29,45 +29,45 @@ for (i=0; i<element1.length; i++) {
 }
 
 ReqCurrencies[1] = 'AUD';
-ReqCurrencies[2] = 'BRL';
-ReqCurrencies[3] = 'CAD';
-ReqCurrencies[4] = 'CHF';
-ReqCurrencies[5] = 'CLP';
-ReqCurrencies[6] = 'CNY';
-ReqCurrencies[7] = 'COP';
-ReqCurrencies[8] = 'CZK';
-ReqCurrencies[9] = 'DKK';
-ReqCurrencies[10] = 'EUR';
-ReqCurrencies[11] = 'GBP';
-ReqCurrencies[12] = 'HKD';
-ReqCurrencies[13] = 'HUF';
-ReqCurrencies[14] = 'IDR';
-ReqCurrencies[15] = 'INR';
-ReqCurrencies[16] = 'ISK';
-ReqCurrencies[17] = 'JPY';
-ReqCurrencies[18] = 'MXN';
-ReqCurrencies[19] = 'MYR';
-ReqCurrencies[20] = 'NOK';
-ReqCurrencies[21] = 'NZD';
-ReqCurrencies[22] = 'PAB';
-ReqCurrencies[23] = 'PEN';
-ReqCurrencies[25] = 'PHP';
-ReqCurrencies[26] = 'PLN';
-ReqCurrencies[27] = 'RON';
-ReqCurrencies[28] = 'RSD';
-ReqCurrencies[29] = 'RUB';
-ReqCurrencies[30] = 'SEK';
-ReqCurrencies[31] = 'SGD';
-ReqCurrencies[32] = 'THB';
-ReqCurrencies[33] = 'TRY';
-ReqCurrencies[34] = 'USD';
-ReqCurrencies[35] = 'UYU';
-ReqCurrencies[36] = 'VEF';
-ReqCurrencies[37] = 'XAF';
-ReqCurrencies[38] = 'ZAR';
-ReqCurrencies[39] = 'EGP';
-ReqCurrencies[40] = 'TWD';
-ReqCurrencies[41] = 'VND';
+ReqCurrencies.push('BRL')
+ReqCurrencies.push('CAD')
+ReqCurrencies.push('CHF')
+ReqCurrencies.push('CLP')
+ReqCurrencies.push('CNY')
+ReqCurrencies.push('COP')
+ReqCurrencies.push('CZK')
+ReqCurrencies.push('DKK')
+ReqCurrencies.push('EUR')
+ReqCurrencies.push('GBP')
+ReqCurrencies.push('HKD')
+ReqCurrencies.push('HUF')
+ReqCurrencies.push('IDR')
+ReqCurrencies.push('INR')
+ReqCurrencies.push('ISK')
+ReqCurrencies.push('JPY')
+ReqCurrencies.push('MXN')
+ReqCurrencies.push('MYR')
+ReqCurrencies.push('NOK')
+ReqCurrencies.push('NZD')
+ReqCurrencies.push('PAB')
+ReqCurrencies.push('PEN')
+ReqCurrencies.push('PHP')
+ReqCurrencies.push('PLN')
+ReqCurrencies.push('RON')
+ReqCurrencies.push('RSD')
+ReqCurrencies.push('RUB')
+ReqCurrencies.push('SEK')
+ReqCurrencies.push('SGD')
+ReqCurrencies.push('THB')
+ReqCurrencies.push('TRY')
+ReqCurrencies.push('USD')
+ReqCurrencies.push('UYU')
+ReqCurrencies.push('VEF')
+ReqCurrencies.push('XAF')
+ReqCurrencies.push('ZAR')
+ReqCurrencies.push('EGP')
+ReqCurrencies.push('TWD')
+ReqCurrencies.push('VND')
 				
 		
 var yy = [];
